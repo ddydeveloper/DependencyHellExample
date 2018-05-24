@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/paranamix2/RiderProjects/DependencyHellNet/ModuleAConsole/ModuleAConsole.csproj",
+    "projectName": "ModuleAConsole",
+    "projectPath": "/home/paranamix2/RiderProjects/DependencyHellNet/ModuleAConsole/ModuleAConsole.csproj",
+    "outputPath": "/home/paranamix2/RiderProjects/DependencyHellNet/ModuleAConsole/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/home/paranamix2/RiderProjects/DependencyHellNet/dto/dto.csproj": {
+            "projectPath": "/home/paranamix2/RiderProjects/DependencyHellNet/dto/dto.csproj"
+          },
+          "/home/paranamix2/RiderProjects/DependencyHellNet/moduleA/moduleA.csproj": {
+            "projectPath": "/home/paranamix2/RiderProjects/DependencyHellNet/moduleA/moduleA.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
